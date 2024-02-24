@@ -1,0 +1,22 @@
+a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(139, 10, 53);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(1, 1, 1, 25%);
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    animation-name: bot;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes bot{
+    from{
+        transform: rotateX(360deg);
+    }
+    to{
+        box-shadow: 10px 10px rgba(1, 1, 1, 25%);
+    }
+}
